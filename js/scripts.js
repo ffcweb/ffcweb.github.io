@@ -31,4 +31,3 @@ function sendEmailDefault(){
     window.open(`mailto:${email}?subject=${subject}&body=${msgBody}`);
   }
 
-// submit
