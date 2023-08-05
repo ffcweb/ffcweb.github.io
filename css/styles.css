@@ -11,6 +11,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+
+
 /* certification */
 div.gallery {
   margin: 5px;
@@ -32,7 +34,7 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
-/* certification */
+
 
 
 
@@ -409,6 +411,7 @@ label {
 
 button {
   border-radius: 0;
+  counter-reset: var(--bs-toast-border-radius);
 }
 
 button:focus:not(:focus-visible) {
@@ -511,14 +514,14 @@ legend + * {
   -webkit-appearance: textfield;
 }
 
-/* rtl:raw:
+rtl:raw:
 [type="tel"],
 [type="url"],
 [type="email"],
 [type="number"] {
   direction: ltr;
 }
-*/
+
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
