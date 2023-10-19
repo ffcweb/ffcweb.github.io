@@ -10,11 +10,11 @@
 const time = new Date().getHours();
 let greeting;
 if (time < 1) {
-    greeting = "Hi there, Good morning!";
+    greeting = "Web developer";
 } else if (time < 18) {
-    greeting = "Hi there,Good day!";
+    greeting = "Web developer";
 } else {
-    greeting = "Hi there,Good night!";
+    greeting = "Web developer";
 }
 document.getElementById("demo1").innerHTML = greeting;
 
