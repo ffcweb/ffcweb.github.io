@@ -10,13 +10,13 @@
 const time = new Date().getHours();
 let greeting;
 if (time < 1) {
-    greeting = "Web developer";
+    greeting = "Good moring";
 } else if (time < 18) {
-    greeting = "Web developer";
+    greeting = "Good afternoon";
 } else {
-    greeting = "Web developer";
+    greeting = "Good night";
 }
-document.getElementById("demo1").innerHTML = greeting;
+document.getElementById("greeting").innerHTML = greeting;
 
 
 // // send email
